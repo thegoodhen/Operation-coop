@@ -2,6 +2,7 @@ class obstacleControl{
     constructor()
     {
         this.sprite=new Sprite();
+        this.sprite.draw=()=>{};
         this.sprite.collider='none';
         this.sprite.x=50;
         this.sprite.y=500;
