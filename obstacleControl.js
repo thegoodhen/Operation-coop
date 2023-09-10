@@ -24,7 +24,7 @@ class obstacleControl{
     {
         //this.snowmanBody.resize(100,0)
         //this.snowmanHats.resize(100,0)
-        if(Date.now()-this.lastObstacleGeneratedMillis>this.nextPeriod)//generate a new obstacle
+        if(frameCount>60*4 && Date.now()-this.lastObstacleGeneratedMillis>this.nextPeriod)//generate a new obstacle
         {
             this.lastObstacleGeneratedMillis = Date.now();
             this.createObstacle();
