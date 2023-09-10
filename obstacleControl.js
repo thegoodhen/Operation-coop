@@ -14,10 +14,10 @@ class obstacleControl{
         this.lastObstacleGeneratedMillis=0;
         this.nextPeriod=1000;
         this.lastSeenAnnouncedCombo=0;
-        this.snowmanBody=loadImage("/snowman/snowman.png")//,img=>{this.theBody=img.resize(100,0)});
-        this.snowmanHats=loadAni("/snowman/hats/hat1.png",6)//,img=>{this.theBody=img.resize(100,0)});
-        this.snowmanScarves=loadAni("/snowman/scarves/scarf1.png",1)//,img=>{this.theBody=img.resize(100,0)});
-        this.snowmanPartyBlower=loadAni("/snowman/party_blower/party_blower00000.png",39);
+        this.snowmanBody=loadImage("./snowman/snowman.png")//,img=>{this.theBody=img.resize(100,0)});
+        this.snowmanHats=loadAni("./snowman/hats/hat1.png",6)//,img=>{this.theBody=img.resize(100,0)});
+        this.snowmanScarves=loadAni("./snowman/scarves/scarf1.png",1)//,img=>{this.theBody=img.resize(100,0)});
+        this.snowmanPartyBlower=loadAni("./snowman/party_blower/party_blower00000.png",39);
     }
 
     step()

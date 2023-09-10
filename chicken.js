@@ -14,11 +14,11 @@ class Chicken{
         this.lastTimeEnergyUsed=0;
         this.walkCycleProgress=0;
 
-        this.body=loadImage("/chicken/body.png");
-        this.face=loadAni("/chicken/face/face00000.png",116)
-        this.faceDetails=loadAni("/chicken/details/face_details00000.png",8)
-        this.frontLeg=loadImage("/chicken/legs/leg_front.png")
-        this.backLeg=loadImage("/chicken/legs/leg_back.png")
+        this.body=loadImage("./chicken/body.png");
+        this.face=loadAni("./chicken/face/face00000.png",116)
+        this.faceDetails=loadAni("./chicken/details/face_details00000.png",8)
+        this.frontLeg=loadImage("./chicken/legs/leg_front.png")
+        this.backLeg=loadImage("./chicken/legs/leg_back.png")
 
 
         this.sprite.draw=()=>{

@@ -9,7 +9,7 @@ var backgroundCtrl2;
 
 function preload()
 {
-    spritesheet=loadImg('/snow/flakes32.png')
+    spritesheet=loadImg('./snow/flakes32.png')
 }
 
 function setup() {
@@ -31,7 +31,7 @@ function setup() {
   floor.h=10;
   floor.y=560;
   floor.collider='static';
-  song = loadSound("/music/jingle_bells.mp3")
+  song = loadSound("./music/jingle_bells.mp3")
   song.setVolume(0.4)
 }
 

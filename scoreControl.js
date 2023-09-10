@@ -17,22 +17,22 @@ class scoreControl {
         this.score = 0;
         this.multiplier = 1;
         this.textScale = 1;
-        this.tree = loadAnimation("/tree/tree_00000.png", 3);
-        this.treeStar = loadImg("/tree/star.png");
-        this.flameAnim = loadAni("/fire/Fire_00000.png", frames = 31)//,{frames:14, frameSize:[88,63]});
+        this.tree = loadAnimation("./tree/tree_00000.png", 3);
+        this.treeStar = loadImg("./tree/star.png");
+        this.flameAnim = loadAni("./fire/Fire_00000.png", frames = 31)//,{frames:14, frameSize:[88,63]});
         this.flameAnim.frameDelay = 1;
         this.combo_images = []
         this.combo_sounds = []
-        this.combo_images[0] = loadImg("/comboTexts/combo_presentable.png");
-        this.combo_images[1] = loadImg("/comboTexts/combo_ohDeer.png");
-        this.combo_images[2] = loadImg("/comboTexts/combo_santastic.png");
-        this.combo_images[3] = loadImg("/comboTexts/combo_xmassive.png");
-        this.combo_images[4] = loadImg("/comboTexts/combo_sleigher.png");
-        this.combo_sounds[0] = loadSound("/music/presentable.mp3")
-        this.combo_sounds[1] = loadSound("/music/oh_deer.mp3")
-        this.combo_sounds[2] = loadSound("/music/santastic.mp3")
-        this.combo_sounds[3] = loadSound("/music/x_massive.mp3")
-        this.combo_sounds[4] = loadSound("/music/sleigher.mp3")
+        this.combo_images[0] = loadImg("./comboTexts/combo_presentable.png");
+        this.combo_images[1] = loadImg("./comboTexts/combo_ohDeer.png");
+        this.combo_images[2] = loadImg("./comboTexts/combo_santastic.png");
+        this.combo_images[3] = loadImg("./comboTexts/combo_xmassive.png");
+        this.combo_images[4] = loadImg("./comboTexts/combo_sleigher.png");
+        this.combo_sounds[0] = loadSound("./music/presentable.mp3")
+        this.combo_sounds[1] = loadSound("./music/oh_deer.mp3")
+        this.combo_sounds[2] = loadSound("./music/santastic.mp3")
+        this.combo_sounds[3] = loadSound("./music/x_massive.mp3")
+        this.combo_sounds[4] = loadSound("./music/sleigher.mp3")
         this.treeX = 100;
         this.treeY = 450;
         this.lastComboAnnouncedMillis = 0;

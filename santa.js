@@ -18,17 +18,17 @@ class Santa {
         this.handRotation = 0;
         this.nextPeriod = 1000;
         this.kvok = false;
-        this.anvil = loadImage("/santa/anvil/anvil.png")
-        this.presentBox = loadImage("/santa/present/box.png")
-        this.presentBow = loadImage("/santa/present/bow.png")
-        this.body = loadImage("/santa/santa.png")
-        this.face = loadImage("/santa/face/santa_face.png")
-        this.hand = loadImage("/santa/hand/santa_hand.png")
-        this.beard = loadAni("/santa/beard/beard_00000.png", frames = 14)//,{frames:14, frameSize:[88,63]});
-        this.hat = loadAni("/santa/hat/hat_00000.png", frames = 14)//,{frames:14, frameSize:[88,63]});
-        this.fire = loadAni("/fire/Fire_00000.png", frames = 31)//,{frames:14, frameSize:[88,63]});
-        this.fireWoof = loadSound("/music/woof_flames.mp3")
-        this.wahwah = loadSound("/music/wahwah_gameover.mp3")
+        this.anvil = loadImage("./santa/anvil/anvil.png")
+        this.presentBox = loadImage("./santa/present/box.png")
+        this.presentBow = loadImage("./santa/present/bow.png")
+        this.body = loadImage("./santa/santa.png")
+        this.face = loadImage("./santa/face/santa_face.png")
+        this.hand = loadImage("./santa/hand/santa_hand.png")
+        this.beard = loadAni("./santa/beard/beard_00000.png", frames = 14)//,{frames:14, frameSize:[88,63]});
+        this.hat = loadAni("./santa/hat/hat_00000.png", frames = 14)//,{frames:14, frameSize:[88,63]});
+        this.fire = loadAni("./fire/Fire_00000.png", frames = 31)//,{frames:14, frameSize:[88,63]});
+        this.fireWoof = loadSound("./music/woof_flames.mp3")
+        this.wahwah = loadSound("./music/wahwah_gameover.mp3")
         this.state = STATE_IDLE;
         this.beard.frameDelay = 2;
         this.hat.frameDelay = 2;
