@@ -90,10 +90,10 @@ class Santa {
             }
             pop()
         }
-        this.smallBawk = loadSound("/music/chicken_present.mp3")
-        this.bigBawk = loadSound("/music/chicken_10presents.mp3")
-        this.presentThrow = loadSound("/music/santa_HO.mp3")
-        this.anvilThrow = loadSound("/music/santa_anvil.mp3")
+        this.smallBawk = loadSound("./music/chicken_present.mp3")
+        this.bigBawk = loadSound("./music/chicken_10presents.mp3")
+        this.presentThrow = loadSound("./music/santa_HO.mp3")
+        this.anvilThrow = loadSound("./music/santa_anvil.mp3")
     }
 
 
