@@ -3,6 +3,10 @@
 ## Play the game!
 You can play the game here: https://thegoodhen.github.io/Operation-coop/
 
+## Screenshots
+
+![](./screens/1.png)
+![](./screens/2.png)
 ## Controls and gameplay
 Use your arrow keys to move and Enter to restart. The chicken gets tired after flying for prolonged periods of time.
 Make sure to allow it to rest from time to time by staying on the ground! 
@@ -27,7 +31,7 @@ In this game, you are a ghost with snow-powered jetpack, who is trying to collec
 The jetpack runs out of water and refills immediately upon landing.
 The basic concept is kept, but updated with improved gameplay, superior graphics and written from scratch for web browsers,
 unlike the original game, which is written using Game Maker.
-
+![](./screens/oldGame.png)
 ## Credits
 The game was made using P5.play.js
 The snow particle system is taken from Coding train, https://www.youtube.com/watch?v=cl-mHFCGzYk&ab_channel=TheCodingTrain
