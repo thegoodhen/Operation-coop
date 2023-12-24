@@ -19,6 +19,7 @@ class Chicken{
         this.faceDetails=loadAni("./chicken/details/face_details00000.png",8)
         this.frontLeg=loadImage("./chicken/legs/leg_front.png")
         this.backLeg=loadImage("./chicken/legs/leg_back.png")
+        this.tiredness_level_background=loadImage("./chicken/tiredness_level.png");
 
 
         this.sprite.draw=()=>{
@@ -28,6 +29,14 @@ class Chicken{
             {
                 tint(0,0,0);
             }
+            push();
+            translate(-this.sprite.x+650,-this.sprite.y+100)
+            image(this.tiredness_level_background, 0, 0,256,64);
+            let sliderX=this.energy*120+-60;
+            let sliderY=0;
+            circle(sliderX, sliderY,20);
+            
+            pop();
             push();
             if(gameCtrl.gameOver)
             {
@@ -52,7 +61,6 @@ class Chicken{
                 tint(255,255,255);//reset the tint to draw face
             }
             this.drawFace();
-
             pop();
         }
         
